@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { AreaChart, Area, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API = import.meta.env.VITE_API_URL;
 const slots = [
   { value: 'morning', label: 'Morning', hint: 'Fasting' },
   { value: 'after_breakfast', label: 'After breakfast', hint: '' },
