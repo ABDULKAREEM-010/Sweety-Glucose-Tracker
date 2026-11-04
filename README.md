@@ -16,6 +16,14 @@ Sweety is a friendly, full-stack blood glucose journal for recording up to four 
 - Node.js 18+
 - PostgreSQL 14+
 
+## .env.example
+```bash
+PORT=5000
+DATABASE_URL=postgresql://postgres:your-password@db.your-project.supabase.co:5432/postgres?sslmode=require
+JWT_SECRET=replace-with-a-long-random-secret
+CLIENT_URL=http://localhost:5173
+
+```
 ## Install
 
 ```bash
@@ -67,6 +75,9 @@ npm test
 ```
 
 The API tests cover the validation rules and report calculations without requiring a database.
+## Screenshots 
+<img width="1898" height="897" alt="image" src="https://github.com/user-attachments/assets/cba6496c-2173-4955-bfe4-6c600324f060" />
+<img width="1896" height="891" alt="image" src="https://github.com/user-attachments/assets/839e0e9c-8799-447a-94a9-f3d72b774f2e" />
 
 ## API overview
 
